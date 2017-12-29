@@ -1,5 +1,2 @@
-<?php
-class index.blade
-{
-}
+@extends('layouts.admin');
 
