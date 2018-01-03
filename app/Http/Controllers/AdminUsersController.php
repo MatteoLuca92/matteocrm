@@ -49,7 +49,12 @@ class AdminUsersController extends Controller
     public function store(UsersRequest $request)
     {
         //
-        return $request->all();
+        //return $request->all();
+
+
+        User::create($request->all());
+        return redirect('/admin/users');
+
     }
 
     /**
@@ -61,6 +66,7 @@ class AdminUsersController extends Controller
     public function show($id)
     {
         //
+        return view('admin.user.show');
     }
 
     /**

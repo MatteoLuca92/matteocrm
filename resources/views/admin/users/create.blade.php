@@ -35,6 +35,17 @@
         
 </div>
 
+
+
+<div class="form-group">
+
+        {!! Form::label('file','Immagine Profilo:') !!}
+        {!! Form::file('file',null,['class'=>'form-control']) !!}
+
+</div>
+
+
+
 <div class="form-group">
 
         {!! Form::label('password','Password:') !!}
@@ -50,7 +61,7 @@
 {!! Form::close() !!}
 
 
-@include('includes.formerror')
+@include('admin.includes.formerror')
 
 
 @stop
