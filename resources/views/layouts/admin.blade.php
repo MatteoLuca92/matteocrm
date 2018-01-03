@@ -123,11 +123,11 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Users<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/users">Tutti gli utenti</a>
+                                <a href="{{route('admin.users.index')}}">Tutti gli utenti</a>
                             </li>
 
                             <li>
-                                <a href="/users/create">Crea Utente</a>
+                                <a href="{{route('admin.users.create')}}">Crea Utente</a>
                             </li>
 
                         </ul>
