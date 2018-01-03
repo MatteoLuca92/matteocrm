@@ -4,8 +4,8 @@
 <h1>Crea Utente</h1>
 
 
-{!! Form::open(['method'=>'POST','action'=>'AdminUsersController@store']) !!}
-
+{!! Form::open(['method'=>'POST','action'=>'AdminUsersController@store','files'=>true]) !!}
+c
 
 <div class="form-group">
 
